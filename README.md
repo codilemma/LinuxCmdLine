@@ -27,15 +27,34 @@ https://learning.oreilly.com/library/view/the-linux-command/9781492071235/
     * options modify command behavior
     * arguments enhance the options for further command modification
     * **command** *-opitons arguments*
+  - long options consist of a word preceded by two dashes
+    * ls -lt --reverse
 
-  ##### ls
+  - ##### ls Command
   - **specify directory to list:** 
-    ls /usr
+    * ls /usr
   - **list multiple dirs (home '~' and /usr):**
-    ls ~ /usr 
+    * ls ~ /usr 
   - **list dir content details of specific dir (-l = long):**
-    ls -l /usr
-  - ** 
+    * ls -l /usr
+  - **Long options word preceded by two dashes**
+    * ls -lt --reverse
+  - **See table .md's for more info**
+    * ls_LONG_LISTING_FIELDS.md
+    * ls_OPTION_TABLE.md
+  
+  - ##### file Command
+  - **Will print a brief description of the file contents:**
+    * **file** *filename*
+
+  - ##### less Command
+  - **shows file contents in the terminal**
+    * **less** *filename*
+    * to exit press **q**
+    * fuck this use nano!!!!!!!
+
+  
+  
 
 
 
